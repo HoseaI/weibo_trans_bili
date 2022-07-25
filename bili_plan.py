@@ -132,6 +132,7 @@ class WeiBo:
                                 time.sleep(30)
                         except IndexError:
                             print("无结果了")
+            time.sleep(300)
 
     def download_video(self, url):
         try:
