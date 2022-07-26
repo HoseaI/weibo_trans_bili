@@ -4,7 +4,7 @@ import json
 import os
 from bilibili_api import video, Verify
 from lxml import etree
-
+os.path.isfile()
 
 class BiliBili:
     def __init__(self, SESSDATA, bili_jct, DedeUserID):
