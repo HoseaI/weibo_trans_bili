@@ -4,7 +4,6 @@ import json
 import os
 from bilibili_api import video, Verify
 from lxml import etree
-os.path.isfile()
 
 class BiliBili:
     def __init__(self, SESSDATA, bili_jct, DedeUserID):
@@ -88,6 +87,7 @@ class WeiBo:
         }
         self.weibo_api = 'https://m.weibo.cn/api/container/getIndex'
         self.get_video_info()
+
 
     def get_video_info(self):
         while True:
